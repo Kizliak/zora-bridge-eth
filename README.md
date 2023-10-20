@@ -23,7 +23,7 @@ sudo apt-get update \
 
 Add private keys:
 ```
-nano pwallets.txt
+nano wallets.txt
 ```
 and edit settings in main.py
 
