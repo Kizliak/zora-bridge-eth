@@ -146,3 +146,5 @@ if __name__ == '__main__':
         if number_wallets != count_wallets:
             sleeping(random.randint(delay_wallets[0], delay_wallets[1]))
         print()
+        
+    print(input(f'More web3 scripts: https://t.me/legalcrypt'))
