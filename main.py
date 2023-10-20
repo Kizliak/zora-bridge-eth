@@ -7,8 +7,8 @@ import random, time
 ######################### Settings ###############################################################
 rpc = 'https://rpc.ankr.com/eth'    # Any Ethereum RPC https://chainlist.org/chain/1
 delay_wallets = [900, 1800]         # wait seconds between wallets min and max
-min_amount_for_bridge = 0.0069      # min amount to bridge ETH
-max_amount_for_bridge = 0.0072      # max amount to bridge ETH
+min_amount_for_bridge = 0.010     # min amount to bridge ETH
+max_amount_for_bridge = 0.011      # max amount to bridge ETH
 max_gas_in_gwei = 8                 # Max gas price in gwei. If current is higher script will wait
 ##################################################################################################
 
