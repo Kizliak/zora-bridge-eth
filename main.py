@@ -30,8 +30,6 @@ def bridgeFlow(address, private_key, w3_eth) -> None:
         bridge_status = bridge_start(address, private_key, w3_eth)
     except Exception as e:
         logger.error(f'{address} - {e}')
-        with open('failed_wallets.txt', 'a') as file:
-            file.write(f'{address}\n')
 
     if bridge_status == True:
         with open('success_wallets.txt', 'a') as file:
